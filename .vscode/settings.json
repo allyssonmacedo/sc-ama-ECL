@@ -1,7 +1,5 @@
 {
     "ecl.launchConfiguration": "localhost",
-    "ecl.targetCluster": {
-        "localhost": "thor"
-    },
+    "ecl.targetCluster": {},
     "ecl.eclccPath": "C:\\Program Files (x86)\\HPCCSystems\\8.10.10\\clienttools\\bin\\eclcc.exe"
 }
