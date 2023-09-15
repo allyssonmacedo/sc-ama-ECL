@@ -1,5 +1,4 @@
-# ECL
-
+## ECL
 In this Repo has some queries in ECL and ECL Training Course by Lexis Nexis
 
 ## Files
