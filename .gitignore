@@ -1,0 +1,7 @@
+## Ignoring a file with more than 100 mb
+My_Files/Data/OnlineLessonPersons/OnlineLessonPersons
+
+*.zip
+
+
+##
