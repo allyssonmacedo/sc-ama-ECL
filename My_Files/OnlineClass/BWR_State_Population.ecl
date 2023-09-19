@@ -1,6 +1,6 @@
 ﻿// EXPORT BWR_State_Population := 'todo';
 
-IMPORT $, Visualizer;
+IMPORT $, My_Files.OnlineClass.Visualizer;
 
 Persons := $.File_Persons.File;
 
@@ -10,4 +10,4 @@ UNSIGNED4 StateCnt := COUNT(GROUP);
 END;
 
 OUTPUT(TABLE(Persons, Rec, State),NAMED('usStates'));
-Visualizer.Choropleth.USStates('usStates',,'usStates');
+Visualizer.Visualizer.Choropleth.USStates('usStates',,'usStates');
