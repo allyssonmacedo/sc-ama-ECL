@@ -8,4 +8,7 @@
    
   SHARED Filename := '~ONLINE::allysson::OUT::LookupCSZ';
   EXPORT File := DATASET(Filename, Layout, FLAT);
+  EXPORT FilePlus := DATASET(Filename, {Layout, UNSIGNED8 RecPos{virtual(fileposition)}}, FLAT);
+  EXPORT IDX_st_city := INDEX(FilePlus, {State, City, RecPos}, '~ONLINE::Allysson::KEY::LookupCSZ');
+  
 END;
