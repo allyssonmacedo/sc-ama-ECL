@@ -20,4 +20,6 @@ EXPORT File_NamesPhones := MODULE
   END;
 
   EXPORT File := DATASET('~online::allysson::Roxie::NamePhones', Rec, THOR);
+
+  EXPORT IDX_LName_Pay := INDEX(FIle, {lname}, {File}, '~ONLINE::allysson::IDX::LinkDataPayLoadIDX');
 END;

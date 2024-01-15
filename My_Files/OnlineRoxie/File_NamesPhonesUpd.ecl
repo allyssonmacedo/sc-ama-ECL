@@ -16,5 +16,6 @@ EXPORT File_NamesPhonesUpd := MODULE
   EXPORT File := DATASET(Filename, Layout, THOR);
   EXPORT FilePlus := DATASET(Filename, {Layout, UNSIGNED8 RecPos{VIRTUAL(fileposition)}}, THOR);
   EXPORT IDX_Fkey_RecID := INDEX(FilePlus, {ForeignKeyID, RecID, RecPos}, '~online::allysson::IDX::AllDataIDX');
+  EXPORT IDX_Fkey_RecIDpay := INDEX(FilePlus, {ForeignKeyID, RecID}, '~ONLINE::allysson::IDX::AllDataPayLoadIDX');
 
 END;
