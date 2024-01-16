@@ -1,0 +1,3 @@
+EXPORT iState := INTERFACE
+    EXPORT STRING2 State := '';
+END;
