@@ -1,0 +1,1 @@
+/// Ver Imagem BWR_BuildPayandSuperKey.jpg
