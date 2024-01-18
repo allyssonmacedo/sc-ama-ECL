@@ -1,0 +1,1 @@
+// ver imagem lab10b.jpg

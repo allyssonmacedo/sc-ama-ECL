@@ -1,0 +1,9 @@
+EXPORT iQueryParms := INTERFACE
+    EXPORT STRING25 LastName := '';
+    EXPORT STRING15 FirstName := '';
+    EXPORT BOOLEAN CaseOn := FALSE;
+    EXPORT UNSIGNED4 Balance := 0;
+    EXPORT BOOLEAN Bal_GTE := FALSE;
+    EXPORT UNSIGNED4 HighCredit := 0;
+    EXPORT BOOLEAN HC_GTE := FALSE;
+END;
