@@ -14,4 +14,7 @@ EXPORT File_Persons_Slim := MODULE
   EXPORT IDX_lname_fname := INDEX(FilePlus, 
                                       {LastName, FirstName, RecPos},
                                       '~ONLINE::allysson::KEY::lname_fname');
+
+  EXPORT IDX_lname_CSZ_payupd := INDEX(FileUpd, {LastName, CSZ_ID}, {FileUpd}, '~ONLINE::allysson::KEY::lname_fname_CSZ_payupd'); // ver imagem lab11 e lab11b
+
 END;
